@@ -1,0 +1,58 @@
+.pagination .selectedPage {
+    font-weight: bold;
+    color: blue;
+
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination span {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #312d2d, #546364);
+    color: white;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: background 0.3s ease;
+}
+
+.pagination span:hover {
+    background: linear-gradient(to right, #e00a0a, #572929);
+}
+
+.hide {
+    display: none;
+}
+
+.userItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.userAvatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.userLocation {
+    text-align: right;
+}
+
+button {
+    width: auto;
+    padding: 5px 10px;
+}

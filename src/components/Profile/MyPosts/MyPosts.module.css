@@ -1,0 +1,34 @@
+.myPosts {
+    padding: 20px;
+}
+
+.newPost {
+    margin-bottom: 20px;
+}
+
+.newPost textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.newPost button {
+    padding: 8px 20px;
+    background-color: rgba(31, 13, 169, 0.225);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newPost button:hover {
+    background-color: #0056b3;
+}
+
+.posts {
+    display: grid;
+    gap: 20px;
+}

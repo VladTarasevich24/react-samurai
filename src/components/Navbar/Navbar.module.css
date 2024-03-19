@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ff4500;
+}
+
+.active {
+    color: #ff4500;
+}

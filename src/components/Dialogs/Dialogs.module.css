@@ -1,0 +1,33 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active{
+    color: rgb(7, 7, 7);
+}
+
+.dialog {}
+
+.messages {
+    padding: 10px;
+}
+
+.message {}
+.link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ff4500;
+}
+
+.active {
+    color: #ff4500;
+}
